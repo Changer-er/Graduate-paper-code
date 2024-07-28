@@ -1,0 +1,19 @@
+
+White's test
+H0: Homoskedasticity
+Ha: Unrestricted heteroskedasticity
+
+   chi2(20) = 3203.12
+Prob > chi2 =  0.0000
+
+Cameron & Trivedi's decomposition of IM-test
+
+--------------------------------------------------
+              Source |       chi2     df         p
+---------------------+----------------------------
+  Heteroskedasticity |    3203.12     20    0.0000
+            Skewness |     137.52      5    0.0000
+            Kurtosis |     166.11      1    0.0000
+---------------------+----------------------------
+               Total |    3506.75     26    0.0000
+--------------------------------------------------

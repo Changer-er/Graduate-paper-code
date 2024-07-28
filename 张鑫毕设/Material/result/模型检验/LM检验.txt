@@ -1,0 +1,15 @@
+
+Breusch and Pagan Lagrangian multiplier test for random effects
+
+        ROA_w[stkcd,t] = Xb + u[stkcd] + e[stkcd,t]
+
+        Estimated results:
+                         |       Var     SD = sqrt(Var)
+                ---------+-----------------------------
+                   ROA_w |   .0046814       .0684206
+                       e |   .0021375       .0462327
+                       u |   .0011904       .0345021
+
+        Test: Var(u) = 0
+                             chibar2(01) =  6205.73
+                          Prob > chibar2 =   0.0000
